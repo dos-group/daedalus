@@ -1,5 +1,7 @@
 # Daedalus: Self-adaptive Autoscaling for Distributed Stream Processing Systems
 
+**Note**: This repository is a fork of the [original repository](https://github.com/pfisterb/daedalus), but with small modifications regarding the evaluation code, README, etc.
+
 This repository contains a self-adaptive autoscaler for DSP systems called Daedalus.  Daedalus monitors a running DSP job and builds performance models to estimate the maximum processing capacity at different scale-outs. By predicting recovery times and anticipating the future workload with time series forecasting, Daedalus enables long-lived scaling actions that can process the incoming workload, achieve reasonable latencies, and minimize resource usage.
 
 ## DSP Jobs
